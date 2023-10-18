@@ -22,7 +22,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 echo 'Building Docker Image...'
-                bat 'docker build -t VishaliKC/cicd-jenkins:latest .'
+                bat 'docker build -t vishali/cicd-jenkins:latest .'
                 echo 'Docker Image Build completed'
             }
         }
